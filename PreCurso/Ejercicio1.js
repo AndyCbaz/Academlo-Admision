@@ -1,4 +1,7 @@
-// console.log('HELLO WORLS');
-const dato1 = "Caracter";
-const dato2 = 12345;
-const dato3 = true;
+//Encontrar el tamaño de la ultima palabra de un texto 
+
+const word = 'Aqui se encuentra mi hermanita';
+const inicio = word.lastIndexOf(' ');
+const final = word.length - 1;
+const result = final - inicio;
+console.log(result);
